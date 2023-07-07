@@ -1,0 +1,29 @@
+{
+  "name": "unity-io",
+  "version": "1.0.0",
+  "description": "Unity Basic Press by Goldmetal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Goldmetal/goldmetal.github.io.git"
+  },
+  "keywords": [
+    "Unity"
+  ],
+  "author": "Goldmetal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Goldmetal/goldmetal.github.io/issues"
+  },
+  "homepage": "https://github.com/Goldmetal/goldmetal.github.io#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "install": "^0.13.0",
+    "npm": "^9.8.0"
+  }
+}
