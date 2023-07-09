@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'Goldmetal Studio',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -26,36 +26,29 @@ module.exports = {
    *
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
-  theme : 'vuesax',
+  theme : 'antdocs',
   themeConfig: {
-    repo: '',
+    repo: 'Goldmetal/goldmetal-github-io',
+    logo: '/assets/img/logo.png',
     editLinks: false,
+    nextLinks: true,
+    prevLinks: true,
+    smoothScroll: true,
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
     nav: [
-      {
-        text: 'Guide',
-        link: '/guide/',
-      },
-      {
-        text: 'Config',
-        link: '/config/'
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
-      }
+      { text: 'Guide', link: '/guide/' },
+      { text: 'Config', link: '/config/' },
+      { text: 'Youtube', link: 'https://www.youtube.com/@goldmetal' },
+      { text: 'VuePress', link: 'https://v1.vuepress.vuejs.org' }
     ],
     sidebar: {
       '/guide/': [
         {
           title: 'Guide',
           collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
+          children: [ '', 'using-vue', ]
         }
       ],
     }

@@ -16,6 +16,6 @@
   "devDependencies": {
     "boxicons": "^2.1.4",
     "vuepress": "^1.5.3",
-    "vuepress-theme-vuesax": "^1.0.0"
+    "vuepress-plugin-container": "^2.1.5"
   }
 }
