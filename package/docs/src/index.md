@@ -29,10 +29,11 @@ sponsors:
 ---
 
 ::: slot heroText
-An <b class="gradient">Elegant VuePress Theme
+An <b class="gradient">Elegant</b> VuePress Theme
 :::
 
 ::: slot tagline
+<iframeUnity iWidth="740" iHeight="300" ihtml="/unity/index.html"></iframeUnity><br><br>
 A VuePress 1.x theme inspired by `@vue/theme`, fully compatible with VuePress default theme.
 :::
 
