@@ -1,6 +1,6 @@
 # Homepage
 
-<iframeComp ihtml="/unity/index.html"></iframeComp>
+<iframeUnity ihtml="/unity/index.html"></iframeUnity>
 
 VT's homepage [frontmatter](https://vuepress.vuejs.org/guide/frontmatter.html) configuration supports all options from [VuePress's default theme](https://vuepress.vuejs.org/theme/default-theme-config.html#homepage), at the same time, VT introduce extra features:
 
