@@ -1,0 +1,20 @@
+{
+  "name": "goldmetalstudio",
+  "version": "0.0.1",
+  "description": "unity codex",
+  "main": "index.js",
+  "authors": {
+    "name": "goldmetal",
+    "email": "gold_metal@naver.com"
+  },
+  "repository": "Goldmetal/goldmetal.github.io/goldmetalstudio",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3",
+    "vuepress-theme-vt": "^0.13.2"
+  }
+}
