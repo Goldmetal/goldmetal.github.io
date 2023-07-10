@@ -1,8 +1,8 @@
 # Homepage
 
-<iframeUnity ihtml="/unity/index.html"></iframeUnity>
-
 VT's homepage [frontmatter](https://vuepress.vuejs.org/guide/frontmatter.html) configuration supports all options from [VuePress's default theme](https://vuepress.vuejs.org/theme/default-theme-config.html#homepage), at the same time, VT introduce extra features:
+
+<iframeUnity iWidth="740" iHeight="300" ihtml="/unity/index.html"></iframeUnity>
 
 1. Additional options: `subActionText`, `subActionLink`, `sponsors`.
 2. Configure rich-text `heroText`, `tagline`, and `footer` via [Markdown Slot](https://vuepress.vuejs.org/guide/markdown-slot.html).
