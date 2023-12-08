@@ -18,7 +18,7 @@ module.exports = {
   head: [
     ['meta', { name: 'theme-color', content: '#ff9900' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
   ],
 
   /**
@@ -28,23 +28,24 @@ module.exports = {
    */
   theme: 'vt',
   themeConfig: {
-    enableDarkMode: true,
+    enableDarkMode: false,
     logo: "/logo.png",
     repo: '',
     editLinks: false,
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
+    search: false,
     nav: [
       { text: "Home", link: "/index" },
-      { text: "Guide", link: "/guide/" },
-      { text: "API", link: "/api/" },
+      //{ text: "Guide", link: "/guide/" },
+      //{ text: "API", link: "/api/" },
       { text: "Youtube", link: "https://www.youtube.com/@goldmetal" },
-      { 
+      /*{ 
         text: "Nav Links on the left", 
         link: "/guide/navbar.html#nav-links-on-the-left",
         position: "left"
-      },
+      },*/
     ],
     sidebar: {
       '/guide/': [

@@ -26,6 +26,6 @@ export default {
     border-top: 0 solid transparent;
     border-right: 0 solid transparent;
     border-bottom: 0 solid transparent;
-    border-radius: 12px;
+    border-radius: 10px;
 }
 </style>
