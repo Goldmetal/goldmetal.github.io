@@ -15,10 +15,10 @@ features:
 sponsorsText: 에셋 다운로드
 sponsors:
   - title: 물리퍼즐 동글이
-    img: /icon/icon_Dongle.png
+    img: /icon/Dongle.png
     link: /unity/packages/DongleFamily_Assets_Pack.unitypackage
   - title: 런게임 공룡런
-    img: /icon/icon_Dino.png
+    img: /icon/Dino.png
     link: /unity/packages/DinoRun_Assets_Pack.unitypackage
 ---
 
