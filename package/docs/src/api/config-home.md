@@ -111,6 +111,6 @@ sponsors:
 ## sponsorsText
 
 - **Type**: `array`
-- **Default**: `'Special Sponsor'`
+- **Default**: `'Goldmetal Assets'`
 
 Sponsor's intro text.
