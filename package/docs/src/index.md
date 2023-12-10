@@ -27,7 +27,7 @@ sponsors:
 :::
 
 ::: slot tagline
-<iframeUnity iWidth="740" iHeight="300" ihtml="/unity/index.html"></iframeUnity><br><br>
+<iframeUnity iWidth="80%" iHeight="300" ihtml="/unity/simpleTest/index.html"></iframeUnity><br><br>
 유니티 크리에이터 & 인플루언서 골드메탈 `@goldmetal` 의 브랜드 페이지입니다.<br>현재 더 좋은 정보를 제공하기 위해 공사중입니다.
 :::
 
