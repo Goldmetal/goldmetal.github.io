@@ -1,9 +1,9 @@
 const cacheName = "Goldmetal Studio-Sample WebGL-0.1.0";
 const contentToCache = [
     "Build/Simple Web.loader.js",
-    "Build/Simple Web.framework.js.gz",
-    "Build/Simple Web.data.gz",
-    "Build/Simple Web.wasm.gz",
+    "Build/Simple Web.framework.js.br",
+    "Build/Simple Web.data.br",
+    "Build/Simple Web.wasm.br",
     "TemplateData/style.css"
 
 ];
