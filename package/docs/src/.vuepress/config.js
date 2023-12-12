@@ -21,6 +21,7 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['meta', { name: 'google-adsense-account', content: 'ca-pub-2370098368894636' }],
+    ['script', { src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2370098368894636', crossorigin: 'anonymous', async: true }],
   ],
 
   /**
