@@ -109,8 +109,5 @@ module.exports = {
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
     "vuepress-plugin-google-adsense",
-    {
-      adClient: "ca-pub-2370098368894636", // replace it with your adClient
-    },
   ]
 }
