@@ -20,7 +20,7 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#ff9900' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ["script",{ src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2370098368894636', async: true, crossorigin: 'anonymous' }],
+    ['meta', { name: 'google-adsense-account', content: 'ca-pub-2370098368894636' }],
   ],
 
   /**
