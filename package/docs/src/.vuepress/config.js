@@ -1,5 +1,6 @@
 const { description } = require('../../package')
 
+
 module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
@@ -19,6 +20,7 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#ff9900' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ["script",{ src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2370098368894636', async: true, crossorigin: 'anonymous' }],
   ],
 
   /**
@@ -106,5 +108,9 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    "vuepress-plugin-google-adsense",
+    {
+      adClient: "ca-pub-2370098368894636", // replace it with your adClient
+    },
   ]
 }
